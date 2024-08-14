@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Texas Grappling Academy</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/Inter/static/Inter_28pt-Regular.ttf">
+    <link rel="stylesheet" href="/assets/app.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header class="header">
+        <!-- NAVBAR -->
+        <nav class="navbar fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="/assets/img/logo.png" alt="tga-logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Texas Grappling Academy</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TGA Instructors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Class Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ------------------- -->
+            <!-- MAIN -->
+    <!-- ------------------- -->
+    <main class="main">
+
+        <div class="banner">
+            <img class="tga-banner" src="/assets/img/tga-banner.jpg" alt="tga-banner">
+
+            <div class="tga-banner-title">
+                <p>WELCOME TO</p>
+                <h1>Texas Grappling Academy</h1>
+            </div>
+        </div>
+    </main>
+
+    <script src="/assets/js/bootstrap.min.js"></script>
 </body>
 </html>
