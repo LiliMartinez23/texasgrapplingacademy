@@ -184,15 +184,36 @@ nav {
 .social-media {
     margin: 2rem;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-feed {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-feed p {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.second-feed {
+    margin-top: 2rem;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.social-media p {
-    margin-right: 15rem;
-    text-align: center;
-    font-size: 30px;
+.media {
+    width: 350px;
+    height: 450px;
+    margin: 0 1rem !important;
 }
 
 
@@ -228,9 +249,9 @@ nav {
         margin-bottom: 0.5rem;
     }
 
-    .second-sub-feed {
-        display: flex;
-        flex-direction: column !important;
+    .media {
+        width: 250px;
+        height: 350px;
     }
 
     iframe {
@@ -256,11 +277,6 @@ nav {
         margin: 0;
         margin-top: 1rem;
         margin-bottom: 0.5rem;
-    }
-
-    .second-sub-feed {
-        display: flex;
-        flex-direction: column !important;
     }
 
     iframe {
@@ -291,12 +307,7 @@ nav {
         flex-direction: column;
     }
 
-    .second-sub-feed {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .instagram-media {
+    .media {
         margin: 0.5rem !important;
     }
 
@@ -305,6 +316,4 @@ nav {
         width: 300px;
         height: 400px;
     }
-
-    
 }
