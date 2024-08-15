@@ -33,6 +33,10 @@ nav {
     border-radius: 5rem;
 }
 
+.offcanvas-body {
+    background-color: black;
+}
+
 .tga-logo {
     width: 2.5rem;
     height: auto;
@@ -53,6 +57,14 @@ nav {
 }
 
 .navbar-nav .nav-link.active {
+    color: gold;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
     color: gold;
 }
 
@@ -216,6 +228,16 @@ nav {
     margin: 0 1rem !important;
 }
 
+/* ------------------ */
+    /* FOOTER */
+/* ------------------ */
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    font-size: 12px;
+}
 
 @media (max-width: 390px) {
     .tga-banner-title h1 {
